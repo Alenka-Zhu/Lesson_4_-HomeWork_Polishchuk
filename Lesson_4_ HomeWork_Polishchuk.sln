@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_4_ HomeWork_Polishchuk", "Lesson_4_ HomeWork_Polishchuk\Lesson_4_ HomeWork_Polishchuk.csproj", "{EE684EC4-0094-4332-930F-4B297EC58C50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "квадраты целых чисел от 1 до N", "Lesson_4_ HomeWork_Polishchuk\квадраты целых чисел от 1 до N.csproj", "{EE684EC4-0094-4332-930F-4B297EC58C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сравнить количество положительных и количество отрицательных введенных чисел", "Сравнить количество положительных и количество отрицательных введенных чисел\Сравнить количество положительных и количество отрицательных введенных чисел.csproj", "{BDD41C9F-C913-4799-BC02-3F0EE1FED0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Найти количество квадратов, размещенных на прямоугольнике", "Найти количество квадратов, размещенных на прямоугольнике\Найти количество квадратов, размещенных на прямоугольнике.csproj", "{0C00F73A-7BC3-414D-9D6F-407EDA399CD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{EE684EC4-0094-4332-930F-4B297EC58C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE684EC4-0094-4332-930F-4B297EC58C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE684EC4-0094-4332-930F-4B297EC58C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD41C9F-C913-4799-BC02-3F0EE1FED0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD41C9F-C913-4799-BC02-3F0EE1FED0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD41C9F-C913-4799-BC02-3F0EE1FED0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD41C9F-C913-4799-BC02-3F0EE1FED0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C00F73A-7BC3-414D-9D6F-407EDA399CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C00F73A-7BC3-414D-9D6F-407EDA399CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C00F73A-7BC3-414D-9D6F-407EDA399CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C00F73A-7BC3-414D-9D6F-407EDA399CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,12 +12,13 @@ namespace Lesson_4__HomeWork_Polishchuk
         {
             Console.WriteLine("Введите целое число больше 0");
             int n = Convert.ToInt32(Console.ReadLine());
-            int s = 0;
-            for(int i=1; i<=n; i++)
+            int s = 0; 
+            Console.WriteLine("Квадраты всех чисел от 1 до {0}",n);
+            for (int i=1; i<=n; i++)
             {
                 s += (2 * i - 1);
+                Console.WriteLine(s);
             }
-            Console.WriteLine(s);
             Console.ReadKey();
         }
     }
