@@ -16,14 +16,19 @@ namespace Найти_количество_квадратов__размещенн
             int c = Convert.ToByte(Console.ReadLine());
             int c1 = c;
             int c2 = c;
-            int sum = c1 + c2;
-            while (a>c1)
+            int sum1 = 0;
+            int sum2 = 0;   
+            int sum = 0;
+            while (c1<=a)
                 {
-                c1 += c1;
+                c1 += c;
+                sum1++;
                 }
-            while (b > c2)
+            while (c2<=b)
                 {
-                c2 += c2;
+                c2 += c;
+                sum2++;
+                sum= sum1 + sum2;
                 }
             Console.WriteLine(sum);
             Console.ReadKey();  
